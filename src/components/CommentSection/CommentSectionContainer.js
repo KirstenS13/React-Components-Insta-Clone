@@ -10,7 +10,7 @@ const CommentSection = props => {
   return (
     <div>
       {/* map through the comments data and return the Comment component */}
-      {console.log(props)}
+      {/* console.log(props) */}
       {props.comments.map((commentObj) => {
         return <Comment comment={commentObj}/>
       })}
